@@ -2,7 +2,7 @@
 
 /*
 Plugin Name: Mobify Wordpress Plugin 
-Plugin URI: http://github.com/b1tr0t/mobify-wordpress-plugin/tree
+Plugin URI: http://github.com/b1tr0t/mobify-wordpress-plugin/tree/master
 Description: Detect mobile device requests and redirect to mobify, setting cookies as applicable
 Version: .9
 Author: Peter McLachlan, derived from work by Robin Jewsbury and Mike Rowehl
@@ -46,7 +46,7 @@ plugin based on: Mobilize by Mippin Wordpress Plugin.  Copyright for mippin comp
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-$MOBIFY_REDIRECT_DEFAULT='m.grousemountain.com';
+$MOBIFY_REDIRECT_DEFAULT='##########';
 $MOBIFY_PARAM_NAME='mobify';
 $MOBIFY_COOKIE_NAME='mobify';
 $MOBIFY_COOKIE_EXPIRE=time() + 60 * 60 * 24 * 14;  # default 2 week expiry
