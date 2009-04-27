@@ -146,7 +146,7 @@ function mobify_url() {
 }
 
 $LOGFILENAME='/tmp/mobify_wp.log';
-$DEBUG=1;
+$DEBUG=0;
 function log_to_file($msg)
 { 
     global $DEBUG;
